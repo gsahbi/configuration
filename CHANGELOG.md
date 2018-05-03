@@ -1,3 +1,7 @@
+- Role: XQueue
+  - Convert to a yaml config (instead of xqueue.auth.json and xqueue.env.json we get xqueue.yml and it lives by default in /edx/etc/xqueue.yml like standard IDAs)
+  - Add XQUEUE_DEFAULT_FILE_STORAGE so that you can specify S3 or Swift in your config
+
 - Role: certs
   - Added `CERTS_QUEUE_POLL_FREQUENCY` to make configurable the certificate agent's queue polling frequency.
 
